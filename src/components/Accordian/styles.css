@@ -1,0 +1,43 @@
+*{
+    justify-items: center;
+    text-align: center;
+}
+.wrapper{
+    display: flex;
+    height: 100%;
+    width: 100vw;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.wrapper button{
+    padding: 10px 20px;
+    background-color: #614101;
+    color: white;
+    font-weight: bold;
+    font-size: 20x;
+    cursor: pointer;
+}
+.wrapper button.multiEnabled {
+    background-color: green;
+}
+.accordian{
+    width: 500px;
+    
+}
+.item{
+    background-color: #614101;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+}
+.tittle{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+
+}
+.content{
+    color: white;
+    height:auto;
+}
